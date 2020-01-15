@@ -37,6 +37,7 @@ body {
 	font-family: "Muli", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #f5f5f5;
 }
 
 h1,
@@ -1063,7 +1064,7 @@ ol {
 	color: #252525;
 	font-weight: 700;
 	padding: 11px 28px;
-	background: #ffffff;
+	background: #f5f5f5;
 	border-radius: 2px;
 }
 
@@ -1167,29 +1168,29 @@ ol {
 }
 
 .product-slider .owl-dots {
-	text-align: center;
-	margin-top: 27px;
+	/* text-align: center;
+	margin-top: 27px; */
 }
 
 .product-slider .owl-dots button {
-	width: 6px;
+	/* width: 6px;
 	height: 6px;
 	background: #D8D9DA;
 	border-radius: 50%;
 	margin-right: 10px;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s; */
 }
 
 .product-slider .owl-dots button:last-child {
-	margin-right: 0;
+	/* margin-right: 0; */
 }
 
 .product-slider .owl-dots button.active {
-	width: 30px;
+	/* width: 30px;
 	background: #252525;
-	border-radius: 50px;
+	border-radius: 50px; */
 }
 
 .product-item {
@@ -1757,19 +1758,19 @@ ol {
 -----------------------*/
 
 .product-shop {
-	padding-top: 80px;
+	padding-top: 40px;
 	padding-bottom: 80px;
 }
 
 .filter-widget {
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .filter-widget .fw-title {
-	color: #252525;
+	color: #5f5454;
 	font-size: 22px;
 	font-weight: 700;
-	margin-bottom: 26px;
+	margin-bottom: 15px;
 }
 
 .filter-widget .filter-catagories li {
@@ -1780,11 +1781,11 @@ ol {
 	display: inline-block;
 	color: #636363;
 	font-size: 16px;
-	line-height: 39px;
+	line-height: 19px;
 }
 
 .filter-widget .fw-brand-check .bc-item {
-	margin-bottom: 3px;
+	margin-bottom: 3p
 }
 
 .filter-widget .fw-brand-check .bc-item label {
@@ -4353,4 +4354,49 @@ ol {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+}
+
+.block{
+	margin: 24px 0 0 ;
+	border-radius: 4px ;
+	min-width:512px 
+}
+.block-2{
+	background:#fff;
+	border: 2px solid #ddd;
+	box-shadow: 0 1px 2px 0 rgba(221,221,221,0.5);
+	margin-top:45px;
+
+}
+.block-header{
+	padding:24px;
+	font-weight:400px;
+	margin:0;
+	font-size:1.25rem;
+}
+.block-title{
+	columns: #333;
+	padding:0 0 3px;
+	display: inline;
+}
+.block-grid{
+	display: flex;
+	flex-wrapper: wrap;
+	justify-content: center;
+	padding: 0 8px;
+}
+.block-size{
+	width:75%;
+	margin: 0 auto;
+}
+.block-img{
+	border: 2px solid transparent;
+}
+.block-3{
+	padding: 12px 0;
+	position: relative;
+	margin: -48px 0 0;
+	border-radius: 4px;
+	min-width: 512px;
+	margin-bottom: 40px;
 }
