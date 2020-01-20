@@ -1275,7 +1275,7 @@ ol {
 
 .product-item .pi-text {
 	text-align: center;
-	padding-top: 26px;
+	padding-top: 10px;
 }
 
 .product-item .pi-text .catagory-name {
@@ -1781,8 +1781,8 @@ ol {
 .filter-widget .filter-catagories li a {
 	display: inline-block;
 	color: #636363;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 13px;
+	line-height: 3;
 }
 
 .filter-widget .fw-brand-check .bc-item {
@@ -4358,7 +4358,7 @@ ol {
 }
 
 .block{
-	margin: 24px 0 0 ;
+	margin: 24px 53px 0 ;
 	border-radius: 4px ;
 	min-width:512px 
 }
@@ -4370,7 +4370,7 @@ ol {
 
 }
 .block-header{
-	padding:24px;
+	padding:1px 5px 12px 24px;
 	font-weight:400px;
 	margin:0;
 	font-size:1.25rem;
@@ -4391,12 +4391,13 @@ ol {
 	margin: 0 auto;
 }
 .block-img{
-	border: 2px solid transparent;
+	border: 13px solid transparent;
 }
 .block-3{
-	padding: 12px 0;
+	padding: 12px 0; 	
 	position: relative;
-	margin: -48px 16px 0;
+	margin: 24px 57px 0 ;
+	/* margin: -48px 16px 0; */
 	border-radius: 4px;
 	min-width: 512px;
 	background:#fff;
