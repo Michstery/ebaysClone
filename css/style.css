@@ -4391,7 +4391,12 @@ ol {
 	margin: 0 auto;
 }
 .block-img{
-	border: 13px solid transparent;
+	border: 2px solid transparent;
+	margin-top:9px;
+}
+.block-img2{
+	border: 10px solid transparent;
+	margin-top:9px;
 }
 .block-3{
 	padding: 12px 0; 	
